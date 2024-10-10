@@ -1,0 +1,85 @@
+2024-08-25 09:57:25.121 +03:00 [INF] [Workspace] Unloaded project with path: 
+2024-08-25 09:57:53.149 +03:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2024-08-25 09:57:53.464 +03:00 [INF] Loading theme with path: 
+2024-08-25 10:02:34.392 +03:00 [INF] [MauiImpactManager] Created temporary folder at: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa
+2024-08-25 10:02:34.415 +03:00 [INF] [MauiImpactManager] Started persisting changes temporally at: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact
+2024-08-25 10:02:34.451 +03:00 [INF] [MauiImpactManager]: Processing incomming files...
+2024-08-25 10:02:34.454 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#App.xaml, ProjectPath = App.xaml.cs }
+2024-08-25 10:02:34.455 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#App.xaml} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\App.xaml.cs, RelativePath: App.xaml.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml.cs }
+2024-08-25 10:02:34.479 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\App.xaml.cs
+2024-08-25 10:02:34.486 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml.cs Destination:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml.cs
+2024-08-25 10:02:34.486 +03:00 [INF] [ChangeManager] (Add) Invalid paths
+2024-08-25 10:02:34.486 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#App.xaml, ProjectPath = App.xaml }
+2024-08-25 10:02:34.486 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#App.xaml} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\App.xaml, RelativePath: App.xaml, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml }
+2024-08-25 10:02:34.486 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#NewsLoginPage.xaml, ProjectPath = Views\NewsFlow\NewsLoginPage.xaml.cs }
+2024-08-25 10:02:34.486 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#NewsLoginPage.xaml} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Pages\NewsLoginPage.xaml.cs, RelativePath: Pages\NewsLoginPage.xaml.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Pages\NewsLoginPage.xaml.cs }
+2024-08-25 10:02:34.486 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Pages\NewsLoginPage.xaml.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Pages\NewsLoginPage.xaml.cs
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#NewsLoginPage.xaml, ProjectPath = Views\NewsFlow\NewsLoginPage.xaml }
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#NewsLoginPage.xaml} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Pages\NewsLoginPage.xaml, RelativePath: Pages\NewsLoginPage.xaml, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Pages\NewsLoginPage.xaml }
+2024-08-25 10:02:34.487 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Pages\NewsLoginPage.xaml Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Pages\NewsLoginPage.xaml
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml.cs }
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#LightTheme.xaml} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Themes\LightTheme.xaml.cs, RelativePath: Themes\LightTheme.xaml.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Themes\LightTheme.xaml.cs }
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml }
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#LightTheme.xaml} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Themes\LightTheme.xaml, RelativePath: Themes\LightTheme.xaml, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Themes\LightTheme.xaml }
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#Poppins-Regular.ttf, ProjectPath = Resources\Fonts\Poppins-Regular.ttf }
+2024-08-25 10:02:34.487 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#Poppins-Regular.ttf} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Resources\Fonts\Poppins-Regular.ttf, RelativePath: Resources\Fonts\Poppins-Regular.ttf, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Resources\Fonts\Poppins-Regular.ttf }
+2024-08-25 10:02:34.488 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Resources\Fonts\Poppins-Regular.ttf Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Resources\Fonts\Poppins-Regular.ttf
+2024-08-25 10:02:34.488 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#ScrollViewHandler.cs, ProjectPath = Controls\Handlers\ScrollViewHandler.cs }
+2024-08-25 10:02:34.488 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#ScrollViewHandler.cs} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Controls\Handlers\ScrollViewHandler.cs, RelativePath: Controls\Handlers\ScrollViewHandler.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Controls\Handlers\ScrollViewHandler.cs }
+2024-08-25 10:02:34.488 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Controls\Handlers\ScrollViewHandler.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Controls\Handlers\ScrollViewHandler.cs
+2024-08-25 10:02:34.489 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LabelHandler.cs, ProjectPath = Controls\Handlers\LabelHandler.cs }
+2024-08-25 10:02:34.489 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#LabelHandler.cs} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Controls\Handlers\LabelHandler.cs, RelativePath: Controls\Handlers\LabelHandler.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Controls\Handlers\LabelHandler.cs }
+2024-08-25 10:02:34.489 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Controls\Handlers\LabelHandler.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Controls\Handlers\LabelHandler.cs
+2024-08-25 10:02:34.490 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#MaterialCommunityIconsFont.cs, ProjectPath = Resources\Fonts\MaterialCommunityIconsFont.cs }
+2024-08-25 10:02:34.490 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#MaterialCommunityIconsFont.cs} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Resources\Fonts\MaterialCommunityIconsFont.cs, RelativePath: Resources\Fonts\MaterialCommunityIconsFont.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Resources\Fonts\MaterialCommunityIconsFont.cs }
+2024-08-25 10:02:34.490 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Resources\Fonts\MaterialCommunityIconsFont.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Resources\Fonts\MaterialCommunityIconsFont.cs
+2024-08-25 10:02:34.490 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#materialdesignicons-webfont.ttf, ProjectPath = Resources\Fonts\materialdesignicons-webfont.ttf }
+2024-08-25 10:02:34.490 +03:00 [INF] [PathResolver]: Resolved asset with id {Grial#materialdesignicons-webfont.ttf} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Resources\Fonts\materialdesignicons-webfont.ttf, RelativePath: Resources\Fonts\materialdesignicons-webfont.ttf, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Resources\Fonts\materialdesignicons-webfont.ttf }
+2024-08-25 10:02:34.490 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Resources\Fonts\materialdesignicons-webfont.ttf Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Resources\Fonts\materialdesignicons-webfont.ttf
+2024-08-25 10:02:34.492 +03:00 [INF] [MauiImpactManager]: Checking App.xaml namespaces...
+2024-08-25 10:02:34.492 +03:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2024-08-25 10:02:34.492 +03:00 [INF] [PathResolver]: Resolved filter with key: ResolutionInfoKey { Id = Grial#App.xaml, ProjectPath = App.xaml }
+2024-08-25 10:02:34.502 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\App.xaml
+2024-08-25 10:02:34.504 +03:00 [INF] [MauiImpactManager]: Processing FileUpdates...
+2024-08-25 10:02:34.504 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#App.xaml, ProjectPath = App.xaml }
+2024-08-25 10:02:34.511 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml Destination:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml
+2024-08-25 10:02:34.511 +03:00 [INF] [ChangeManager] (Add) Invalid paths
+2024-08-25 10:02:34.516 +03:00 [INF] [PathResolver]: Attempting to resolve name: ThemeCompatibility.xaml
+2024-08-25 10:02:34.520 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml.cs }
+2024-08-25 10:02:34.522 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml.cs }
+2024-08-25 10:02:34.522 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Themes\LightTheme.xaml.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Themes\LightTheme.xaml.cs
+2024-08-25 10:02:34.522 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml }
+2024-08-25 10:02:34.523 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Themes\LightTheme.xaml Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\Themes\LightTheme.xaml
+2024-08-25 10:02:34.527 +03:00 [INF] [MauiImpactManager]: Atempting to update themes...
+2024-08-25 10:02:34.527 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml }
+2024-08-25 10:02:34.527 +03:00 [INF] [MauiImpactManager]: Found theme with path: Themes\LightTheme.xaml
+2024-08-25 10:02:34.531 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Themes\LightTheme.xaml Destination:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\Themes\LightTheme.xaml
+2024-08-25 10:02:34.531 +03:00 [INF] [ChangeManager] (Add) Invalid paths
+2024-08-25 10:02:34.533 +03:00 [INF] [MauiImpactManager]: Adding font declarations...
+2024-08-25 10:02:34.533 +03:00 [INF] [PathResolver]: Attempting to resolve name: MauiProgram.cs
+2024-08-25 10:02:34.533 +03:00 [INF] [PathResolver]: Resolved asset with name {MauiProgram.cs} with { Path: C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\MauiProgram.cs, RelativePath: MauiProgram.cs, AssignedDestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\MauiProgram.cs }
+2024-08-25 10:02:34.548 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\MauiProgram.cs Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\MauiProgram.cs
+2024-08-25 10:02:34.549 +03:00 [INF] [MauiImpactManager]: Adding handler declarations...
+2024-08-25 10:02:34.549 +03:00 [INF] [PathResolver]: Attempting to resolve name: MauiProgram.cs
+2024-08-25 10:02:34.549 +03:00 [INF] [PathResolver]: Resolved filter with key: ResolutionInfoKey { Id = Grial#MauiProgram.cs, ProjectPath = MauiProgram.cs }
+2024-08-25 10:02:34.561 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\MauiProgram.cs Destination:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\MauiProgram.cs
+2024-08-25 10:02:34.561 +03:00 [INF] [ChangeManager] (Add) Invalid paths
+2024-08-25 10:02:34.562 +03:00 [INF] [MauiImpactManager]: Updating project file...
+2024-08-25 10:02:34.568 +03:00 [INF] [MauiImpactManager]: Added nugget Nuget { Id = UXD.Grial.Basic, Version = 4.2.114, IsPivate = False, Initialization = PackagingInitialization { Name = UseGrial, Namespace = UXDivers.Grial }, PackIdToRemove = UXDivers.GrialMaui, UpdateOnly = False }
+2024-08-25 10:02:34.572 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\RealStateApp.MAUI.csproj Destination:C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\RealStateApp.MAUI.csproj
+2024-08-25 10:02:34.574 +03:00 [INF] [MauiImpactManager]: Adding handler nuget initializations...
+2024-08-25 10:02:34.574 +03:00 [INF] [PathResolver]: Attempting to resolve name: MauiProgram.cs
+2024-08-25 10:02:34.574 +03:00 [INF] [PathResolver]: Resolved filter with key: ResolutionInfoKey { Id = Grial#MauiProgram.cs, ProjectPath = MauiProgram.cs }
+2024-08-25 10:02:34.577 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\MauiProgram.cs Destination:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\MauiProgram.cs
+2024-08-25 10:02:34.577 +03:00 [INF] [ChangeManager] (Add) Invalid paths
+2024-08-25 10:02:34.579 +03:00 [INF] [MauiImpactManager]: Attempting to set selected theme...
+2024-08-25 10:02:34.579 +03:00 [INF] [PathResolver]: Attempting to resolve name: App.xaml
+2024-08-25 10:02:34.579 +03:00 [INF] [PathResolver]: Resolved filter with key: ResolutionInfoKey { Id = Grial#App.xaml, ProjectPath = App.xaml }
+2024-08-25 10:02:34.580 +03:00 [INF] [PathResolver]: Attempting to resolve key: ResolutionInfoKey { Id = Grial#LightTheme.xaml, ProjectPath = Themes\LightTheme.xaml }
+2024-08-25 10:02:34.583 +03:00 [INF] [MauiImpactManager]: Processing builder...
+2024-08-25 10:02:34.585 +03:00 [INF] [PathResolver]: Resolved relative path with temporary folder for path: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml
+2024-08-25 10:02:34.586 +03:00 [INF] [LocalImpactBuilder]: Resolved {AssetId: , Path: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml} to {SourcePath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml, DestinationPath: C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml}
+2024-08-25 10:02:34.594 +03:00 [INF] [ChangeManager] (Add) Source:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml Destination:C:\Users\PC\AppData\Local\Temp\a9695c66-e60e-42d7-b00b-352423b77aaa\impact\App.xaml
+2024-08-25 10:02:34.594 +03:00 [INF] [ChangeManager] (Add) Invalid paths
+2024-08-25 10:02:34.594 +03:00 [INF] [MauiImpactManager] Finished presisting changes temporaly
+2024-08-25 10:23:58.018 +03:00 [INF] Solution closed

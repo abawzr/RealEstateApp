@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealStateApp.MAUI.Pages.PropOwnerPage"
+             Title="PropOwner Page">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="" />
+            <Entry x:Name="OwnerIdEntry" Placeholder="Owner ID" />
+            <Entry x:Name="PropertyIdEntry" Placeholder="Property ID" />
+            <Entry x:Name="PercentOwnedEntry" Placeholder="Percent Owned" />
+            <Label Text="" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Load PropsOwners"
+                Clicked="OnLoadPropsOwnersClicked"
+                HorizontalOptions="Center" />
+                <Button Text="Add PropOwner"
+                Clicked="OnAddPropOwnerClicked"
+                HorizontalOptions="Center" />
+                <Button Text="Get PropOwner By ID"
+                    Clicked="OnGetPropOwnerByIdClicked"
+                    HorizontalOptions="Center" />
+                <Entry x:Name="GetOwnerIdEntry" Placeholder="Owner ID" />
+                <Entry x:Name="GetPropertyIdEntry" Placeholder="Property ID" />
+            </HorizontalStackLayout>
+            
+            <CollectionView ItemsSource="{Binding PropsOwners}"
+                        Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding OwnerID, StringFormat='Owner ID: {0}'}" FontSize="20" />
+                            <Label Text="{Binding PropertyID, StringFormat='Property ID: {0}'}" FontSize="20" />
+                            <Label Text="{Binding PercentOwned, StringFormat='Percent Owned: {0}'}" FontSize="14" />
+                            <Label Text="" />
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                                <Button Text="Edit"
+                                CommandParameter="{Binding .}"
+                                Clicked="OnEditPropOwnerClicked"
+                                HorizontalOptions="Center" />
+                                <Button Text="Delete"
+                                CommandParameter="{Binding .}"
+                                Clicked="OnDeletePropOwnerClicked"
+                                HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

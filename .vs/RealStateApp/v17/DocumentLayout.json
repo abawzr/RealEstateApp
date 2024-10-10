@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\RealStateApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|c:\\users\\pc\\source\\repos\\realstateapp\\realstateapp.maui\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|solutionrelative:realstateapp.maui\\services\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|c:\\users\\pc\\source\\repos\\realstateapp\\realstateapp.maui\\pages\\custombasepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|solutionrelative:realstateapp.maui\\pages\\custombasepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|c:\\users\\pc\\source\\repos\\realstateapp\\realstateapp.maui\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|solutionrelative:realstateapp.maui\\pages\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|c:\\users\\pc\\source\\repos\\realstateapp\\realstateapp.maui\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|solutionrelative:realstateapp.maui\\pages\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|c:\\users\\pc\\source\\repos\\realstateapp\\realstateapp.maui\\pages\\custombasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F59BEB8F-A327-4607-826B-6B8ACB000340}|RealStateApp.MAUI\\RealStateApp.MAUI.csproj|solutionrelative:realstateapp.maui\\pages\\custombasepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Services\\ApiService.cs",
+              "RelativeDocumentMoniker": "RealStateApp.MAUI\\Services\\ApiService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Services\\ApiService.cs",
+              "RelativeToolTip": "RealStateApp.MAUI\\Services\\ApiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T10:44:16.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomBasePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\CustomBasePage.xaml.cs",
+              "RelativeDocumentMoniker": "RealStateApp.MAUI\\Pages\\CustomBasePage.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\CustomBasePage.xaml.cs",
+              "RelativeToolTip": "RealStateApp.MAUI\\Pages\\CustomBasePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-27T19:27:00.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomBasePage.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\CustomBasePage.xaml",
+              "RelativeDocumentMoniker": "RealStateApp.MAUI\\Pages\\CustomBasePage.xaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\CustomBasePage.xaml",
+              "RelativeToolTip": "RealStateApp.MAUI\\Pages\\CustomBasePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-27T18:46:08.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\HomePage.xaml",
+              "RelativeDocumentMoniker": "RealStateApp.MAUI\\Pages\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\HomePage.xaml",
+              "RelativeToolTip": "RealStateApp.MAUI\\Pages\\HomePage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-25T07:55:25.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "RealStateApp.MAUI\\Pages\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\RealStateApp\\RealStateApp.MAUI\\Pages\\HomePage.xaml.cs",
+              "RelativeToolTip": "RealStateApp.MAUI\\Pages\\HomePage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T09:50:56.87Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

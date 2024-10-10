@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealStateApp.MAUI.Pages.OwnerPage"
+             Title="Owner Page">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="" />
+            <Entry x:Name="OwnerIdEntry" Placeholder="Owner ID" Keyboard="Numeric"/>
+            <Entry x:Name="FirstNameEntry" Placeholder="First Name" />
+            <Entry x:Name="LastNameEntry" Placeholder="Last Name" />
+            <Label Text="" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Load Owners"
+                    Clicked="OnLoadOwnersClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Add Owner"
+                    Clicked="OnAddOwnerClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Get Owner By ID"
+                    Clicked="OnGetOwnerByIdClicked"
+                    HorizontalOptions="Center" />
+                <Entry x:Name="GetOwnerIdEntry" Placeholder="Owner ID" />
+                
+            </HorizontalStackLayout>
+            <CollectionView ItemsSource="{Binding Owners}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding OwnerID, StringFormat='Owner ID: {0}'}" FontSize="20" />
+                            <Label Text="{Binding OwnerFirstName, StringFormat='First Name: {0}'}" FontSize="14" />
+                            <Label Text="{Binding OwnerLastName, StringFormat='Last Name: {0}'}" FontSize="14" />
+                            <Label Text="" />
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                                <Button Text="Edit"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnEditOwnerClicked"
+                                    HorizontalOptions="Center" />
+                                <Button Text="Delete"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnDeleteOwnerClicked"
+                                    HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

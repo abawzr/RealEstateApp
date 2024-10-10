@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealStateApp.MAUI.Pages.AddressPage"
+             Title="Address Page">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="" />
+            <Entry x:Name="AddressIdEntry" Placeholder="Address ID" Keyboard="Numeric"/>
+            <Entry x:Name="AddressLineEntry" Placeholder="Address Line" />
+            <Entry x:Name="CityEntry" Placeholder="City" />
+            <Entry x:Name="StateEntry" Placeholder="State" />
+            <Entry x:Name="ZipCodeEntry" Placeholder="ZipCode" Keyboard="Numeric" />
+            <Label Text="" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Load Addresses"
+                    Clicked="OnLoadAddressesClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Add Address"
+                    Clicked="OnAddAddressClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Get Address By ID"
+                    Clicked="OnGetAddressByIdClicked"
+                    HorizontalOptions="Center" />
+                <Entry x:Name="GetAddressIdEntry" Placeholder="Address ID" />
+
+            </HorizontalStackLayout>
+            <CollectionView ItemsSource="{Binding Addresses}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding AddressID, StringFormat='Address ID: {0}'}" FontSize="20" />
+                            <Label Text="{Binding AddressLine, StringFormat='Address Line: {0}'}" FontSize="14" />
+                            <Label Text="{Binding City, StringFormat='City: {0}'}" FontSize="14" />
+                            <Label Text="{Binding State, StringFormat='State: {0}'}" FontSize="14" />
+                            <Label Text="{Binding ZipCode, StringFormat='ZipCode: {0}'}" FontSize="14" />
+                            <Label Text="" />
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                                <Button Text="Edit"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnEditAddressClicked"
+                                    HorizontalOptions="Center" />
+                                <Button Text="Delete"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnDeleteAddressClicked"
+                                    HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

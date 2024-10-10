@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sync="http://schemas.syncfusion.com/maui"
+             x:Class="RealStateApp.MAUI.Pages.SalesOfficePage"
+             Title="SalesOffice Page">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="" />
+            <Entry x:Name="OfficeIdEntry" Placeholder="Office ID" Keyboard="Numeric" />
+            <Entry x:Name="OfficeNameEntry" Placeholder="Office Name" />
+            <Entry x:Name="AddressIdEntry" Placeholder="Address ID" Keyboard="Numeric" />
+            <Entry x:Name="ManagedByEmployeeIdEntry" Placeholder="Managed By Employee ID" Keyboard="Numeric" />
+            <Label Text="" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Load Sales Offices"
+                    Clicked="OnLoadSalesOfficesClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Add Sales Office"
+                    Clicked="OnAddSalesOfficeClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Get SalesOffice By ID"
+                    Clicked="OnGetSalesOfficeByIdClicked"
+                    HorizontalOptions="Center" />
+                <Entry x:Name="GetSalesOfficeIdEntry" Placeholder="SalesOffice ID" />
+                <Button Text="Show Properties Per Office"
+                    Clicked="OnShowPropertiesPerOfficeClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Show Employees Per Office"
+                    Clicked="OnShowEmployeesPerOfficeClicked"
+                    HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <CollectionView ItemsSource="{Binding SalesOffices}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding OfficeName, StringFormat='Office Name: {0}'}" FontSize="20" />
+                            <Label Text="{Binding OfficeID, StringFormat='Office ID: {0}'}" FontSize="14" />
+                            <Label Text="{Binding AddressID, StringFormat='Address ID: {0}'}" FontSize="14" />
+                            <Label Text="{Binding AddressLine, StringFormat='Address Line: {0}'}" FontSize="14" />
+                            <Label Text="{Binding ManagedByEmployeeDisplay, StringFormat='Managed By Employee ID: {0}'}" FontSize="14" />
+                            <Label Text="{Binding ManagerName, StringFormat='Manager Name: {0}'}" FontSize="14" />
+                            <Label Text="{Binding NumberOfProperties, StringFormat='Number Of Properties: {0}'}" FontSize="14" />
+                            <Label Text="" />
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                                <Button Text="Edit"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnEditSalesOfficeClicked"
+                                    HorizontalOptions="Center" />
+                                <Button Text="Delete"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnDeleteSalesOfficeClicked"
+                                    HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <CollectionView ItemsSource="{Binding GroupedProperties}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding OfficeName, StringFormat='Office Name: {0}'}" FontSize="20" />
+                            <Label Text="{Binding OfficeID, StringFormat='Office ID: {0}'}" FontSize="20" />
+                            <Label Text="-------------------------------------------------" FontSize="16" />
+
+                            <CollectionView ItemsSource="{Binding Properties}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout>
+                                            <Label Text="{Binding PropertyID, StringFormat='Property ID: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding ListPrice, StringFormat='List Price: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding Status, StringFormat='Status: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding NoOfBedrooms, StringFormat='Bedrooms: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding NoOfBathrooms, StringFormat='Bathrooms: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding City, StringFormat='City: {0}'}" FontSize="14" />
+                                            <Label Text="-------------------------------------------------" FontSize="16" />
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <CollectionView ItemsSource="{Binding GroupedEmployees}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding OfficeName, StringFormat='Office Name: {0}'}" FontSize="20" />
+                            <Label Text="{Binding OfficeID, StringFormat='Office ID: {0}'}" FontSize="20" />
+                            <Label Text="-------------------------------------------------" FontSize="16" />
+
+                            <CollectionView ItemsSource="{Binding Employees}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <StackLayout>
+                                            <Label Text="{Binding EmpID, StringFormat='Employee ID: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding EmpFirstName, StringFormat='First Name: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding EmpLastName, StringFormat='Last Name: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding DateOfBirth, StringFormat='Date Of Birth: {0}'}" FontSize="14" />
+                                            <Label Text="{Binding Age, StringFormat='Age: {0}'}" FontSize="14" />
+                                            <Label Text="-------------------------------------------------" FontSize="16" />
+                                        </StackLayout>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

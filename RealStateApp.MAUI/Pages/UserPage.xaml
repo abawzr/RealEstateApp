@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealStateApp.MAUI.Pages.UserPage"
+             Title="User Page">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="" />
+            <Entry x:Name="UserEmailEntry" Placeholder="User Email" />
+            <Label Text="" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Load Users"
+                    Clicked="OnLoadUsersClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Add User"
+                    Clicked="OnAddUserClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Get User By ID"
+                    Clicked="OnGetUserByIdClicked"
+                    HorizontalOptions="Center" />
+                <Entry x:Name="UserIdEntry" Placeholder="User ID" />
+            </HorizontalStackLayout>
+            
+            <CollectionView ItemsSource="{Binding Users}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding UserID, StringFormat='User ID: {0}'}" FontSize="20" />
+                            <Label Text="{Binding UserEmail, StringFormat='User Email: {0}'}" FontSize="14" />
+                            <Label Text="" />
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                                <Button Text="Edit"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnEditUserClicked"
+                                    HorizontalOptions="Center" />
+                                <Button Text="Delete"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnDeleteUserClicked"
+                                    HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

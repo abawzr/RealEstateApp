@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RealStateApp.MAUI.Pages.EmployeePage"
+             Title="Employee Page">
+
+    <ScrollView>
+        <StackLayout Padding="10">
+            <Label Text="" />
+            <Entry x:Name="EmpIdEntry" Placeholder="Emp ID" Keyboard="Numeric" />
+            <Entry x:Name="EmpFirstNameEntry" Placeholder="First Name" />
+            <Entry x:Name="EmpLastNameEntry" Placeholder="Last Name" />
+            <Entry x:Name="SalesOfficeIdEntry" Placeholder="Sales Office ID" Keyboard="Numeric" />
+            <Entry x:Name="DateOfBirthEntry" Placeholder="Date Of Birth MM/DD/YYYY" Keyboard="Numeric" />
+            <Entry x:Name="AgeEntry" Placeholder="Age" Keyboard="Numeric" />
+            <Label Text="" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                <Button Text="Load Employees"
+                    Clicked="OnLoadEmployeesClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Add Employee"
+                    Clicked="OnAddEmployeeClicked"
+                    HorizontalOptions="Center" />
+                <Button Text="Get Employee By ID"
+                    Clicked="OnGetEmployeeByIdClicked"
+                    HorizontalOptions="Center" />
+                <Entry x:Name="GetEmployeeIdEntry" Placeholder="Employee ID" />
+            </HorizontalStackLayout>
+            
+            <CollectionView ItemsSource="{Binding Employees}"
+                            Margin="0,20,0,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding EmpID, StringFormat='Emp ID: {0}'}" FontSize="20" />
+                            <Label Text="{Binding EmpFirstName, StringFormat='First Name: {0}'}" FontSize="14" />
+                            <Label Text="{Binding EmpLastName, StringFormat='Last Name: {0}'}" FontSize="14" />
+                            <Label Text="{Binding SalesOfficeID, StringFormat='Sales Office ID: {0}'}" FontSize="14" />
+                            <Label Text="{Binding DateOfBirth, StringFormat='Date Of Birth: {0}'}" FontSize="14" />
+                            <Label Text="{Binding Age, StringFormat='Age: {0}'}" FontSize="14" />
+                            <Label Text="" />
+                            <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+                                <Button Text="Edit"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnEditEmployeeClicked"
+                                    HorizontalOptions="Center" />
+                                <Button Text="Delete"
+                                    CommandParameter="{Binding .}"
+                                    Clicked="OnDeleteEmployeeClicked"
+                                    HorizontalOptions="Center" />
+                            </HorizontalStackLayout>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="RealStateApp.MAUI.Pages.CustomBasePage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:sync="http://schemas.syncfusion.com/maui"
+    Title="CustomBasePage">
+
+    <sync:SfTabView
+        x:Name="tabView"
+        BackgroundColor="DimGray"
+        TabBarPlacement="Bottom">
+        <sync:SfTabView.Items>
+            <sync:SfTabItem x:Name="Home" Header="Home" />
+
+            <sync:SfTabItem x:Name="SalesOffice" Header="Sales Office" />
+
+            <sync:SfTabItem x:Name="Property" Header="Property" />
+
+            <sync:SfTabItem x:Name="Owner" Header="Owner" />
+
+            <sync:SfTabItem x:Name="Employee" Header="Employee" />
+        </sync:SfTabView.Items>
+    </sync:SfTabView>
+
+</ContentPage>

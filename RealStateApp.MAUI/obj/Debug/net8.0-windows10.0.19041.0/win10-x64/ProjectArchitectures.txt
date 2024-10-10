@@ -1,0 +1,1 @@
+C:\Users\PC\source\repos\RealStateApp\RealStateApp.MAUI\RealStateApp.MAUI.csproj;x64

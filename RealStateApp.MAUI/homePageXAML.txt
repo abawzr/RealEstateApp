@@ -1,0 +1,31 @@
+        <StackLayout Padding="10" VerticalOptions="CenterAndExpand" >
+
+            <Button Text="Sales Office"
+                Clicked="OnSalesOfficeButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+            <Button Text="Employee"
+                Clicked="OnEmployeeButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+            <Button Text="Address"
+                Clicked="OnAddressButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+            <Button Text="Owner"
+                Clicked="OnOwnerButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+            <Button Text="Property"
+                Clicked="OnPropertyButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+            <Button Text="User"
+                Clicked="OnUserButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+            <Button Text="PropOwner"
+                Clicked="OnPropOwnerButtonClicked"
+                Margin="0,0,0,20"
+                HorizontalOptions="Center" />
+        </StackLayout>
